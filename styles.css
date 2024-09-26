@@ -3,8 +3,9 @@ body{
 }
 
 h1{
-    background-color: green;
+    background-color: rgb(179, 247, 19);
     color: blueviolet;
+    text-align: center;
 }
 
 h2{
@@ -12,5 +13,5 @@ h2{
 }
 
 h3{
-    color: green;
+    color: rgb(179, 57, 204);
 }
