@@ -1,0 +1,32 @@
+title{
+    text-align: center;
+}
+body{
+    text-align: center;
+    background-color:rgb(254, 165, 47);
+}
+
+th{
+    color:rgb(0, 0, 0);
+    text-align: center;
+}
+
+table{
+    width: 64%;
+    margin: 0 auto;
+}
+.sistemes{
+    background-color:#088000 ;
+}
+.serveis{
+    background-color: #290087;
+}
+.Seguritat{
+    background-color:#84818E ;
+}
+.Aplicacions{
+    background-color:#8DEE00 ;
+}
+.Empresa{
+    background-color:#4ABD8C;
+}
