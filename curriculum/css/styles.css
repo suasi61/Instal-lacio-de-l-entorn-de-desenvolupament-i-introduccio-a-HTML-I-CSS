@@ -1,0 +1,21 @@
+header{
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
+body{
+    background-color: #7dcea0;
+}
+
+h1{
+    color: #8e44ad;
+}
+.image{
+    position: absolute;
+    width: 290px;
+    right: 0;
+    top: 0;
+    height: auto;
+}
