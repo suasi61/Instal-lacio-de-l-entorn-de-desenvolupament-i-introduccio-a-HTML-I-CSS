@@ -12,6 +12,11 @@ body{
 h1{
     color: #8e44ad;
 }
+
+h2{
+    color: #0074c2;
+}
+
 .image{
     position: absolute;
     width: 290px;
