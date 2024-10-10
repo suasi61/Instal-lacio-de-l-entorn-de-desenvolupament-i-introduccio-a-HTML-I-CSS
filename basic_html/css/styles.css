@@ -1,0 +1,133 @@
+
+
+header p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}
+
+header h5 {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    border-bottom: 2px solid #333;
+    padding-bottom: 10px;
+}
+
+.projects ul, .education ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.projects ul li, .education ul li {
+    background-color: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+}
+
+/* Cápsulas */
+section div, .projects ul, .education ul {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Grid para distribuir proyectos, experiencia y educación */
+.projects, .work-experience, .education {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* Estilos para los elementos de experiencia */
+.experience-item {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Reviews */
+.reviews {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.review {
+    background-color: #fff;
+    padding: 20px;
+    flex: 1;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+    margin-top: 40px;
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between; /* Separa les caixes de manera uniforme */
+    gap: 20px; /* Defineix l'espai entre les caixes */
+    padding: 20px; /* Espai dins de les caixes */
+}
+
+.card {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    flex: 1 1 calc(33% - 40px); /* Ocupa un 33% de l'ample amb espais */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Opcional, per afegir una ombra */
+}
+.projects ul {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Tres columnes iguals */
+    gap: 20px; /* Espai entre les targetes */
+}
+
+.projects ul li {
+    background-color: #f9f9f9;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
