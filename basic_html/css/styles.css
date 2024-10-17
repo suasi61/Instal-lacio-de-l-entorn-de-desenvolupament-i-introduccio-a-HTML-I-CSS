@@ -1,0 +1,127 @@
+html{
+    font-size: 62,5%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body{
+    font-size: 16px; /*1rem 10px*/
+
+}
+
+h1{
+    font-size: 3.8rem;
+}
+
+h2{
+    font-size: 3.2rem;
+}
+
+h3{
+    font-size: 2.8rem;
+}
+
+h1,
+h2,
+h3{
+    text-align: center;
+}
+
+/*Enlaces sin decoracion*/
+a{
+    color: inherit;
+    /*Mantiene el color del texto circundante*/
+    text-decoration: none;
+    /*Elimina el subrayado*/
+    transition: color 0.3s ease;
+    /*Añade una transicion suave para los cambios de color*/
+}
+
+a:hover{
+    color: #007bff;
+    /*Cambia el color al pasar el mouse por encima*/
+}
+
+/*Estilos para listas sin punto*/
+ul{
+    list-style-type: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.bg-blue{
+    background-color: #007bff;
+}
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+header{
+    background-color: azure;
+}
+
+header .top{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 1rem;
+}
+
+.Logo{
+    display: flex;
+}
+
+.hero{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-bottom: 3rem;
+}
+
+main .projects{
+    background-color: blue;
+    padding: 1rem;
+}
+
+main .work{
+    background-color: red;
+    padding-left: 1rem;
+}
+
+main .education{
+    background-color: green;
+    padding-left: 1rem;
+}
+
+.review{
+    background-color: yellow;
+}
+
+main{
+    display: flex;
+
+}
