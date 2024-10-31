@@ -9,39 +9,54 @@ body {
 }
 
 /* Estilo del header */
-header.conteiner {
+header.container {
     background-color: yellow;
     width: 100%;
     text-align: center;
     padding: 20px;
 }
 
-header nav a {
+/* Caja de navegación */
+.nav-bar {
+    background-color: #fff; 
+    border: 2px solid purple; 
+    display: inline-block;
+    padding: 10px 20px; 
+    border-radius: 8px; 
+}
+
+/* Estilo de los enlaces */
+.nav-bar a {
     color: purple;
     font-weight: bold;
-    margin: 0 15px;
+    margin: 0 15px; /* Separación entre los enlaces */
     text-decoration: none;
     font-size: 20px;
 }
 
-header nav a:hover {
+.nav-bar a:hover {
     text-decoration: underline;
 }
+
 
 /* Estilo de la galería */
 .galeria {
     display: grid;
-    grid-template-columns: repeat(3, 1fr); /* 3 columnas */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Ajuste para que se llenen con tamaño mínimo de 200px */
     gap: 10px;
-    max-width: 900px; /* Limitar el ancho máximo */
+    max-width: 900px;
     padding: 20px;
     box-sizing: border-box;
 }
 
+/* Estilo de las imágenes */
 .galeria img {
     width: 100%;
-    height: auto;
-    object-fit: cover;
+    height: 200px; /* Altura fija para todas las imágenes */
+    object-fit: cover; /* Para que se recorten sin distorsión */
     border: 2px solid #fff;
-    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Agregar sombra */
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3); /* Sombra para las imágenes */
 }
+
+
+
