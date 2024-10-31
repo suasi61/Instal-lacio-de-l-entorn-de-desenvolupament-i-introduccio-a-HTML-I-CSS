@@ -1,0 +1,27 @@
+
+
+body{
+    background-color: yellow;
+}
+nav{
+    width: 300px;
+    height: 20vh;
+    background-color: pink;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.galeria{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    height: 70vh;
+}
